@@ -23,7 +23,10 @@ int main(){
     cin>>arr[i];
   }
 
-  for(int i = 0; i<len; i++);
+  for(int i = 0; i<len; i++){
+    cout<<arr[i]<<" ";
+  }
+  cout<<endl;
 
   int ans = sorted(arr,len);
   if(ans){
